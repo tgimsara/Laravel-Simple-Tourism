@@ -8,6 +8,6 @@ class photo extends Model
 {
     protected $fillable = [
         'user_id', 
-        'exampleFormControlFile1' // <-- also add this if you're saving it
+        'exampleFormControlFile1' // <-- also add this if you're saving it.
     ];
 }
