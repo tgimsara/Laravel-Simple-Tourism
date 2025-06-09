@@ -14,10 +14,11 @@
                         </div>
                     @endif
 
-                    <form>
+                    <form method = "post" action="/photos/store">
+                        @csrf
                         <div class="form-group">
                             <label for="exampleFormControlFile1">Example file input</label>
-                            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                            <input type="text" class="form-control-file" id="exampleFormControlFile1" name="exampleFormControlFile1">
                         </div>
                         <button type="submit" class = "btn btn-primary mr5">Submit</button>
                     </form>
